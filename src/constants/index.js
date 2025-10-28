@@ -29,42 +29,6 @@ const counterItems = [
   { value: 12, suffix: "", label: "Completed Projects" },
 ];
 
-const logoIconsList = [
-  {
-    imgPath: "/images/logos/company-logo-1.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-2.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-3.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-4.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-5.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-6.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-7.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-8.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
-  },
-];
-
 const abilities = [
   {
     imgPath: "/images/seo.png",
@@ -105,6 +69,128 @@ const techStackImgs = [
     imgPath: "/images/logos/git.svg",
   },
 ];
+const projects = [
+  {
+    id: 1,
+    title: "UseCaseReportGeneratorAI",
+    description:
+      "A modern, AI-powered Use Case Report Generator built with Next.js, React, and TypeScript. This application provides an intuitive interface for generating comprehensive use case reports with AI assistance and exporting them to professional Excel documents.",
+    image: "/images/prj10.png",
+    link: "testcasegenerator-lemon.vercel.app",
+    category: "AI",
+    bgColor: "bg-[#FFE7EB]",
+  },
+  {
+    id: 2,
+    title: "Lovink",
+    description:
+      "An application that for couple to connect and share special moments together, featuring private memories, taking note for special events, and photo streaks like LOCKET.",
+    image: "/images/prj11.jpg",
+    link: "https://github.com/XuHo-IT/Lovink_App",
+    category: "WPF/App",
+    bgColor: "bg-[#FFE7EB]",
+  },
+  {
+    id: 3,
+    title: "EcoGenz Platform",
+    description:
+      "A global platform for creating and joining environmental projects, inspiring green challenges, and sharing eco journeys to build a worldwide sustainability community.",
+    image: "/images/prj3.png",
+    link: "https://github.com/XuHo-IT/EcoGenz_API",
+    category: "Web",
+    bgColor: "bg-[#FFE7EB]",
+  },
+  {
+    id: 4,
+    title: "PawnHub",
+    description:
+      "A wpf application for managing pawn shop operations, including inventory management, customer records, and transaction processing.",
+    image: "/images/prj4.png",
+    link: "https://github.com/XuHo-IT/PawnHub",
+    category: "WPF/App",
+    bgColor: "bg-[#FFE7EB]",
+  },
+  {
+    id: 5,
+    title: "Dating App",
+    description:
+      "A modern dating application with user profiles, matching algorithms, and real-time chat functionality, built using contemporary development frameworks.",
+    image: "/images/prj5.png",
+    link: "https://github.com/XuHo-IT/DatingApp_API",
+    category: "Web",
+    bgColor: "bg-[#FFE7EB]",
+  },
+  {
+    id: 6,
+    title: "Quiz App",
+    description:
+      "An interactive quiz application that offers various quizzes across different topics, featuring timed questions and score tracking.",
+    image: "/images/prj7.png",
+    link: "https://github.com/XuHo-IT/QuizApp",
+    category: "Web",
+    bgColor: "bg-[#FFE7EB]",
+  },
+  {
+    id: 7,
+    title: "Hotel Management System",
+    description:
+      "An hotel management system that streamlines booking, check-in, and customer service processes using advanced technologies.",
+    image: "/images/prj6.png",
+    link: "https://github.com/XuHo-IT/ManageVilla",
+    category: "Web",
+    bgColor: "bg-[#FFE7EB]",
+  },
+  {
+    id: 8,
+    title: "InfoAIChatApp",
+    description:
+      "InfoAIChatApp is a C# desktop application that lets you upload a PDF file and interact with its content using AI. You can ask questions or extract specific information directly from the document, making it a powerful tool for fast, intelligent PDF understanding",
+    image: "/images/prj8.png",
+    link: "https://github.com/XuHo-IT/Info_AI",
+    category: "AI",
+    bgColor: "bg-[#FFE7EB]",
+  },
+  {
+    id: 9,
+    title: "LanguageDetectorAI",
+    description:
+      "LanguageDetectorAI is a C# desktop application that detects the language of user input and helps correct grammar or spelling mistakes. It’s designed to assist users in improving their writing accuracy across multiple languages through intelligent AI suggestions",
+    image: "/images/prj9.png",
+    link: "https://github.com/XuHo-IT/LanguageDetector_AI",
+    category: "AI",
+    bgColor: "bg-[#FFE7EB]",
+  },
+   {
+    id: 10,
+    title: "FusionNews Platform",
+    description:
+      "A News platform with several languages from all countries, secure login, and chatbot support 24/24. Built using modern web technologies and APIs.",
+    image: "/images/prj1.png",
+    link: "https://github.com/XuHo-IT/FusionNews_API",
+    category: "Web",
+    bgColor: "bg-[#FFEFDB]",
+  },
+  {
+    id: 11,
+    title: "Ornamental Fish Platform",
+    description:
+      "An online platform for showcasing and selling ornamental fish, featuring product listings, user authentication, and a responsive design.",
+    image: "/images/prj2.png",
+    link: "https://github.com/XuHo-IT/Ornamental_Fish_API",
+    category: "Web",
+    bgColor: "bg-[#FFEFDB]",
+  },
+  {
+    id: 12,
+    title: "NFT Market Place",
+    description:
+      "A modern NFT Marketplace application built with React and Solidity, allowing users to browse, buy, and sell NFTs securely on the blockchain.",
+    image: "/images/prj12.png",
+    link: "https://github.com/XuHo-IT/NFT_Market_Place",
+    category: "WPF/App",
+    bgColor: "bg-[#FFE7EB]",
+  },
+];
 
 const techStackIcons = [
   {
@@ -143,134 +229,47 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+      "XuHo is hardworking and dedicated to his work, he is a great developer and a great team player.",
+    imgPath: "/images/logo4.png",
+    logoPath: "/images/logo4.png",
+    title: "Backend Developer",
+    date: "December 2024 - April 2025",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
-    ],
-  },
-  {
-    review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
-    responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
-    ],
-  },
-  {
-    review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Contributed as a C# Development Developer on a financial support system project",
+      "Designed and implemented features using C# and Entity Framework Core with a Code First approach to ensure efficient database interaction",
+      "Developed desktop application modules in WPF (Windows Presentation Foundation) with MVVM design pattern, enhancing maintainability and user experience",
     ],
   },
 ];
 
-const expLogos = [
-  {
-    name: "logo1",
-    imgPath: "/images/logo1.png",
-  },
-  {
-    name: "logo2",
-    imgPath: "/images/logo2.png",
-  },
-  {
-    name: "logo3",
-    imgPath: "/images/logo3.png",
-  },
-];
 
-const testimonials = [
-  {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
-    review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
-  },
-  {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
-    review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
-  },
-  {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
-  },
-];
 
 const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    url:"https://www.instagram.com/_.xuho._/",
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    url:"https://www.facebook.com/hoa.ngotran.986?locale=vi_VN",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url:"https://www.linkedin.com/in/xuan-hoa-b581102b7/",
   },
 ];
 
 export {
   words,
   abilities,
-  logoIconsList,
   counterItems,
   expCards,
-  expLogos,
-  testimonials,
   socialImgs,
   techStackIcons,
   techStackImgs,
   navLinks,
+  projects
 };

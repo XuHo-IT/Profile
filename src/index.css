@@ -161,6 +161,69 @@ section {
       @apply flex xl:flex-row flex-col gap-10 justify-between;
     }
 
+    /* Segmented Control Styles */
+    .segmented-control {
+      @apply relative inline-flex bg-black border border-blue-400 rounded-lg p-1;
+      box-shadow: 0 0 0 1px rgba(59, 130, 246, 0.3);
+      min-width: 400px;
+      max-width: 600px;
+    }
+
+    .segmented-control button {
+      @apply relative px-4 py-3 text-sm font-mono transition-all duration-300 text-white flex-1;
+      font-family: 'Courier New', monospace;
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .segmented-control button:hover:not(.selected) {
+      @apply text-blue-300;
+    }
+
+    .segmented-control button.selected {
+      @apply text-white bg-red-600 rounded-md;
+      box-shadow: 0 0 0 1px rgba(220, 38, 38, 0.5);
+    }
+
+    .segmented-control button:first-child {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+    }
+
+    .segmented-control button:last-child {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .segmented-control {
+        min-width: 300px;
+        max-width: 100%;
+      }
+      
+      .segmented-control button {
+        @apply px-2 py-2 text-xs;
+        min-height: 36px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .segmented-control {
+        min-width: 280px;
+        flex-wrap: wrap;
+      }
+      
+      .segmented-control button {
+        @apply px-1 py-2 text-xs;
+        min-height: 32px;
+        flex: 1 1 calc(50% - 2px);
+        margin: 1px;
+      }
+    }
+
     .first-project-wrapper {
       @apply h-full flex flex-col justify-between xl:w-[60%];
 
