@@ -25,8 +25,8 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 1, suffix: "", label: "Years of Experience" },
-  { value: 12, suffix: "", label: "Completed Projects" },
+  { value: 6, suffix: "", label: "Months of Experience" },
+  { value: 8, suffix: "", label: "Completed Projects" },
 ];
 
 const abilities = [
@@ -76,7 +76,7 @@ const projects = [
     description:
       "A modern, AI-powered Use Case Report Generator built with Next.js, React, and TypeScript. This application provides an intuitive interface for generating comprehensive use case reports with AI assistance and exporting them to professional Excel documents.",
     image: "/images/prj10.png",
-    link: "testcasegenerator-lemon.vercel.app",
+    link: "https://testcasegenerator-lemon.vercel.app",
     category: "AI",
     bgColor: "bg-[#FFE7EB]",
   },
@@ -120,48 +120,8 @@ const projects = [
     category: "Web",
     bgColor: "bg-[#FFE7EB]",
   },
-  {
-    id: 6,
-    title: "Quiz App",
-    description:
-      "An interactive quiz application that offers various quizzes across different topics, featuring timed questions and score tracking.",
-    image: "/images/prj7.png",
-    link: "https://github.com/XuHo-IT/QuizApp",
-    category: "Web",
-    bgColor: "bg-[#FFE7EB]",
-  },
-  {
-    id: 7,
-    title: "Hotel Management System",
-    description:
-      "An hotel management system that streamlines booking, check-in, and customer service processes using advanced technologies.",
-    image: "/images/prj6.png",
-    link: "https://github.com/XuHo-IT/ManageVilla",
-    category: "Web",
-    bgColor: "bg-[#FFE7EB]",
-  },
-  {
-    id: 8,
-    title: "InfoAIChatApp",
-    description:
-      "InfoAIChatApp is a C# desktop application that lets you upload a PDF file and interact with its content using AI. You can ask questions or extract specific information directly from the document, making it a powerful tool for fast, intelligent PDF understanding",
-    image: "/images/prj8.png",
-    link: "https://github.com/XuHo-IT/Info_AI",
-    category: "AI",
-    bgColor: "bg-[#FFE7EB]",
-  },
-  {
-    id: 9,
-    title: "LanguageDetectorAI",
-    description:
-      "LanguageDetectorAI is a C# desktop application that detects the language of user input and helps correct grammar or spelling mistakes. It’s designed to assist users in improving their writing accuracy across multiple languages through intelligent AI suggestions",
-    image: "/images/prj9.png",
-    link: "https://github.com/XuHo-IT/LanguageDetector_AI",
-    category: "AI",
-    bgColor: "bg-[#FFE7EB]",
-  },
    {
-    id: 10,
+    id: 6,
     title: "FusionNews Platform",
     description:
       "A News platform with several languages from all countries, secure login, and chatbot support 24/24. Built using modern web technologies and APIs.",
@@ -171,7 +131,7 @@ const projects = [
     bgColor: "bg-[#FFEFDB]",
   },
   {
-    id: 11,
+    id: 7,
     title: "Ornamental Fish Platform",
     description:
       "An online platform for showcasing and selling ornamental fish, featuring product listings, user authentication, and a responsive design.",
@@ -181,12 +141,12 @@ const projects = [
     bgColor: "bg-[#FFEFDB]",
   },
   {
-    id: 12,
-    title: "NFT Market Place",
+    id: 8,
+    title: "Noir Atelier",
     description:
-      "A modern NFT Marketplace application built with React and Solidity, allowing users to browse, buy, and sell NFTs securely on the blockchain.",
-    image: "/images/prj12.png",
-    link: "https://github.com/XuHo-IT/NFT_Market_Place",
+      "A modern fashion e-commerce website built with Java and Firebase, featuring a sleek design, user-friendly interface, and secure payment integration.",
+    image: "/images/prj13.png",
+    link: "https://github.com/XuHo-IT/NoirAtelier",
     category: "WPF/App",
     bgColor: "bg-[#FFE7EB]",
   },
