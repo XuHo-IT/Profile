@@ -11,7 +11,7 @@ const AppShowcase = () => {
   const libraryRef = useRef(null);
   const ycDirectoryRef = useRef(null);
 
-  const [selectedCategory, setSelectedCategory] = useState("AI");
+  const [selectedCategory, setSelectedCategory] = useState("All");
 
   const categories = ["All", "Web", "WPF/App", "AI"];
 
